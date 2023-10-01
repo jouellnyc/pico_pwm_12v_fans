@@ -3,6 +3,7 @@ There appear to be few guides on the internet that walk someone through setting 
 
 There are some that come close, but add additional components and some that have mostly text,  however here is a simple example of how to use just those components in a very simple fashion.
 
+Lots of documentation exist inside the pwm_runner file.
 
 | Pico              | L9110| 
 | --------          | --------- |
