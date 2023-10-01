@@ -24,17 +24,23 @@ import time
 """ The normal full power operation of the DC hobby fan is clockwise """ 
 """ when holding the fan with the black wire on the left             """
 
+#3-5V DC Hobby Fan
 #Forward
 #>>> B1A.value(0); B1B.value(1) 
-
 #Stop
 #>>> B1A.value(1); B1B.value(1) 
-
 #Backward
 #>>> B1A.value(1); B1B.value(0)
-
 #Stop
 #>>> B1A.value(0); B1B.value(0)  
+
+#12V DC Fan
+# https://www.aliexpress.us/item/3256802262312152.html
+#Forward
+#>>> B1A.value(0); B1B.value(1) 
+#All other combos do not make any difference as it appears to only
+#Move in one direction
+
 
 #Pysical Labels
 B1A = Pin(0, Pin.OUT)
@@ -46,8 +52,6 @@ B1B = Pin(1, Pin.OUT)
 #speed     = B1B
 
 """
-Quoting "https://forum.micropython.org/viewtopic.php?t=5736":
-
 Software: I use 1 pin as direction pin and the other pin as speed pin.
 If the direction is low then the motor will get power when ever the speed pin is high
 so the speed the motor will spin at will be the duty with of the speed pin i.e PWM_duty = desired_speed.
@@ -58,8 +62,11 @@ low so you have to invert the PWM duty i.e PWM_duty = 100 - desired_speed
 
 #Set direction to low
 #direction.value(0)
-B1B.value(0); B1A.value(0)
-pwm_speed = machine.PWM(B1A, freq=1000, duty_u16=0)
+#Left most connection
+B1A.value(1)
+#Immediate to the right of B1A
+B1B.value(0); 
+pwm_speed = machine.PWM(B1B, freq=1000, duty_u16=0)
 
 """
 #Stop 
@@ -81,3 +88,6 @@ while True:
         print(f"== {x} ==")
         pwm_speed.duty_u16(x)
         time.sleep(1)
+    
+        
+
