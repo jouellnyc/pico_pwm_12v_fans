@@ -30,21 +30,32 @@ The normal full power operation of the DC hobby fan is clockwise
 when holding the fan with the black wire on the left
 
 #Forward
-#>>> B1A.value(0); B1B.value(1) 
+B1A.value(0); B1B.value(1) 
 #Stop
-#>>> B1A.value(1); B1B.value(1) 
+B1A.value(1); B1B.value(1) 
 #Backward
-#>>> B1A.value(1); B1B.value(0)
+B1A.value(1); B1B.value(0)
 #Stop
-#>>> B1A.value(0); B1B.value(0)  
+B1A.value(0); B1B.value(0)  
 """
 
 """ 12V DC Fan 
 #Forward
->>> B1A.value(0); B1B.value(1) 
-All other combos do not make any difference as it appears to only move in one direction
-However, I can put full 12V DC on the L9110 and the pi/pico/everything is stable.
+B1A.value(0); B1B.value(1)
+
+All other combos do not make any difference as it appears to only move in one direction.
+
+Therefore, by default B1B must be used as the speed with PWM:
+
+#Stoped
+pwm_speed = PWM(B1B, freq=1000, duty_u16=0)
+
+#Full on 
+pwm_speed = PWM(B1B, freq=1000, duty_u16=65535)
+
+With full 12V DC on the L9110, the pi/pico/everything is stable.
 """
+
 
 """  NO PWM UP TO  THIS POINT !!! 
 
