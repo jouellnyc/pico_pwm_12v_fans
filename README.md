@@ -19,6 +19,7 @@ There are some that come close, but add additional components and some that have
 | +/5V/rail          | VCC      |
 
 | Breadboard         | 5V Power|
+| --------           | --------- |
 | GND on Breadboard | -/5V |
 | PWR on Breadboard | +/5V |
 
