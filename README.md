@@ -6,6 +6,7 @@ There are caveats/warning about using 12V with 3.3/5V microcontrollers in some f
 
 Lots of documentation/urls exist inside the pwm_runner file as well.
 
+NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me at the time.
 
 **Fritzing Schematic**
 ![BreadBoard](images/L9110_bb.png)
