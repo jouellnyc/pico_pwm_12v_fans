@@ -5,6 +5,11 @@ There are some that come close, but add additional components and some that have
 
 Lots of documentation exist inside the pwm_runner file.
 
+
+**Fritzing Schematic**
+![BreadBoard](images/L9110_bb.png)
+
+
 | Pico              | L9110| 
 | --------          | --------- |
 | GPIO 0            | Motor B1A |
