@@ -43,7 +43,9 @@ NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me a
 
 So yes, you can control a 2-pin DC fan with Pico Pi and PWM.
 
-NOTE: There may be a squeeling sound at low pwm frequency. Best to play around for what suits your fan. See:
+NOTE: There may be a squeeling sound at low pwm frequency. Best to play around for what suits your fan. 
+
+See these links:
 
 [Forum](https://picaxeforum.co.uk/threads/is-a-small-high-pitched-noise-normal-when-using-pwmout.9077/)
 
