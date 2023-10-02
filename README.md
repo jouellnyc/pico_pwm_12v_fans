@@ -10,8 +10,6 @@ Lots of documentation/urls exist inside the pwm_runner file as well.
 **Fritzing Schematic**
 ![BreadBoard](images/L9110_bb.png)
 
-External Power: 12 V
-
 | Pico              | L9110| 
 | --------          | --------- |
 | GPIO 0            | Motor B1A |
