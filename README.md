@@ -10,8 +10,6 @@ Lots of documentation/urls exist inside the pwm_runner file as well.
 **Fritzing Schematic**
 ![BreadBoard](images/L9110_bb.png)
 
-Power: Pico via USB (5V)
-
 External Power: 12 V
 
 | Pico              | L9110| 
@@ -32,9 +30,4 @@ External Power: 12 V
 | --------           | --------- |
 | GND on Breadboard | -/5V |
 | PWR on Breadboard | +/5V |
-
-
-
-
-
 
