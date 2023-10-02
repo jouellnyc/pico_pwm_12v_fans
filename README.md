@@ -25,7 +25,7 @@ NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me a
 | GND/rail           | GND      |
 | +/5V/rail          | VCC      |
 
-| Breadboard         | 5V Power|
+| Breadboard         | 5V Power (Terminal Block)|
 | --------           | --------- |
 | GND | -/5V |
 | PWR | +/5V |
