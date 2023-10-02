@@ -67,12 +67,15 @@ Remember:
 - Remove the 'ENA' jumper and put GPIO4/Phys Pin 6 attached to it.
 - This is valid for full speed:
 
+```
 IN1.low(); IN2.high() 
 speed = PWM(Pin(4), freq=450, duty_u16=65535)
-
+```
 if you are setting up like this:
+```
 IN1 = Pin(3, Pin.OUT)
 IN2 = Pin(2, Pin.OUT)
+```
 
 - Recall the 12V Fans do NOT move 'backwards'
 
