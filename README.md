@@ -39,7 +39,7 @@ NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me a
 | GND | -/5V |
 | PWR | +/5V |
 
-pwm_runner - will run a for loop using PWN at high and slow speeds. So yes, you can control a 2-pin DC fan with Pico Pi and PWM.
+```pwm_runner``` - will run a for loop using PWN at high and slow speeds. So yes, you can control a 2-pin DC fan with Pico Pi and PWM.
 
 NOTE: There may be a squeeling sound at low pwm frequency. Best to play around for what suits your fan. See:
 
