@@ -14,7 +14,7 @@ NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me a
 - Pi Pico
 - [Small 12 V Fan](https://www.aliexpress.us/item/3256802262312152.html)
 - [Larger 12 V Fan](https://www.amazon.com/gp/product/B0BXDGWS4J/)
-
+- [Power Jack Adapter](https://www.amazon.com/gp/product/B07C61434H/)
 
 
 **Fritzing Schematic**
