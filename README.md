@@ -58,7 +58,7 @@ Best to play around for what suits your fan.  See these links:
 
 
 ## Notes for the L298N:
-There are so many writes up on the L298N, here's 2:
+There are so many writes up on the [L298N](https://www.amazon.com/gp/product/B0C5JCF5RS), here's 2:
 
 [MCLAB](https://microcontrollerslab.com/dc-motor-l298n-driver-raspberry-pi-pico-tutorial/)
 [HACK.IO](https://www.hackster.io/Ramji_Patel/raspberry-pi-pico-and-l298n-motor-driver-62bfa0)
