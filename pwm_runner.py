@@ -60,6 +60,7 @@ pwm_speed = PWM(B1B, freq=1000, duty_u16=65535)
 With full 12V DC on the L9110, the pi/pico/everything is stable.
 
 #450 is a lot less noisy than 1000 at low frequency!
+pwm_speed = PWM(B1B, freq=450, duty_u16=0)
 """
 
 """ larger 12V DC Fan
