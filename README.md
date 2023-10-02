@@ -56,3 +56,24 @@ Best to play around for what suits your fan.  See these links:
 
 [Reddit](https://www.reddit.com/r/Motors/comments/ojn64m/12v_pwm_fan_makes_high_pitch_noise_when_hooked_up/)
 
+
+## Notes for the L298N:
+There are so many writes up on the L298N, here's 2:
+
+[MCLAB](https://microcontrollerslab.com/dc-motor-l298n-driver-raspberry-pi-pico-tutorial/)
+[HACK.IO](https://www.hackster.io/Ramji_Patel/raspberry-pi-pico-and-l298n-motor-driver-62bfa0)
+
+Remember: 
+- Remove the 'ENA' jumper and put GPIO4/Phys Pin 6 attached to it.
+- This is valid for full speed:
+
+IN1.low(); IN2.high() 
+speed = PWM(Pin(4), freq=450, duty_u16=65535)
+
+if you are setting up like this:
+IN1 = Pin(3, Pin.OUT)
+IN2 = Pin(2, Pin.OUT)
+
+- Recall the 12V Fans do NOT move 'backwards'
+
+
