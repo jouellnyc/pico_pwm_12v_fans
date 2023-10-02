@@ -57,7 +57,7 @@ Best to play around for what suits your fan.  See these links:
 [Reddit](https://www.reddit.com/r/Motors/comments/ojn64m/12v_pwm_fan_makes_high_pitch_noise_when_hooked_up/)
 
 
-## Notes for the L298N:
+# L298N:
 There are so many writes up on the [L298N](https://www.amazon.com/gp/product/B0C5JCF5RS), here's 2:
 
 [MCLAB](https://microcontrollerslab.com/dc-motor-l298n-driver-raspberry-pi-pico-tutorial/)
