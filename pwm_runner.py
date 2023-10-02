@@ -70,6 +70,9 @@ B1A.value(0); B1B.value(1)
 - All other combos do not make any difference as it appears to only move in one direction.
 - I.E, if you try for   B1A.value(1); B1B.value(0) and put in on 12V, you are guaranteed to fry the L9110!
   The  stall current will be too much.
+  
+#3500 is a lot less noisy the 1000 at low frequency!
+pwm_speed = PWM(B1B, freq=3500, duty_u16=0)
 """
 
 """
