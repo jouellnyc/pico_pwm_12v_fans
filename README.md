@@ -20,6 +20,7 @@ NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me a
 ## Fritzing Schematic
 ![BreadBoard](images/L9110_bb.png)
 
+## Connections
 | Pico              | L9110| 
 | --------          | --------- |
 | GPIO 0            | Motor B1A |
