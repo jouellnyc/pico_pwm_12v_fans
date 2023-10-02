@@ -27,6 +27,6 @@ NOTE: I connected the pi to "MotorB" because it was simply easier/closer to me a
 
 | Breadboard         | 5V Power|
 | --------           | --------- |
-| GND on Breadboard | -/5V |
-| PWR on Breadboard | +/5V |
+| GND | -/5V |
+| PWR | +/5V |
 
