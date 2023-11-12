@@ -4,7 +4,7 @@ There appear to be few guides on the internet that walk someone through setting 
 There are some that come close, but add additional components and some that have mostly text, however here is a simple example of how to use just those components in a very simple fashion.
 There are caveats/warning about using 12V with 3.3/5V microcontrollers in some forums, but you can follow this setup safely - make sure the current does not exceed the rating of the L9110. 
 
-For *smaller* hobby motors this is typically not a problem, but beware of their polarities and if they only move forward in one direction. The stall current at full 12V power, may exceed the the limit of L9110 if you were to try if full blast and will destroy the L9110(smoke/etc). This is %100 true of the larger fan in this repo.
+For *smaller* hobby motors this is typically not a problem, but beware of their polarities and if they only move forward in one direction. The stall current at full 12V power, may exceed the limit of L9110. If you were to try it at full blast it will destroy the L9110(smoke/etc). This is %100 true of the larger fan in this repo.
 
 
 Lots of documentation/urls exist inside the pwm_runner file as well.
